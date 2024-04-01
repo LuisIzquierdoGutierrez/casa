@@ -23,7 +23,7 @@ public class Curso {
     public Curso() {
         this.codigo = Teclado.string("escribe el codigo del curso");
         this.descripcion = Teclado.string("escribe la descripcion del curso");
-        this.nHoras = Teclado.Integer("escribe las horas del curso");
+        this.nHoras = Teclado.integer("escribe las horas del curso");
     }
 
     public String getCodigo() {
