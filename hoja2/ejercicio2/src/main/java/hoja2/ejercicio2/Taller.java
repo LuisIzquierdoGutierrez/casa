@@ -41,4 +41,36 @@ public class Taller {
             }
         }
     }
+    
+    public void darSalidaVehiculo(String matricula){
+                FichaVehiculo vehiculo = null;
+        boolean continuar = true;
+        for (int i = 0; i < reparados.size() && continuar; i++) {
+            if (reparados.get(i).getMatricula().equals(matricula)) {
+                vehiculo = reparados.get(i);
+                continuar = false;
+            }
+            if (continuar) {
+                System.out.println("vehiculo no encontrado");
+            } else {
+                vehiculo.setSalida(LocalDateTime.now());
+                reparados.add(vehiculo);
+            }
+        }
+    }
+    
+    public void mostrarEstado(){
+        System.out.println("Taller:\nEn espera:");
+        for (FichaVehiculo fichaVehiculo : enEspera) {
+            System.out.println(fichaVehiculo.toString());
+        }
+        System.out.println("Reparados:");
+        for (FichaVehiculo reparado : reparados) {
+            reparado.toString();
+        }
+        System.out.println("Finalizados:");
+        for (FichaVehiculo finalizado : finalizados) {
+            System.out.println(finalizado.toString());
+        }
+    }
 }
