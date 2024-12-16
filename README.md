@@ -48,3 +48,5 @@ $${\color{lightgreen}•}$$ Se usa | para marcar las columnas y entre ellas se p
 |Dropbox|dropbox.txt|
 |Github|github.txt|
 
+---
+# $${\color{lightgreen} SINTAXIS}$$ $${\color{lightgreen}BÁSICA}$$ $${\color{lightgreen}DE}$$ $${\color{lightgreen} MARKDOWN}$$
