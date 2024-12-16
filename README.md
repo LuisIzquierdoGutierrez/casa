@@ -36,3 +36,15 @@ $${\color{lightgreen}•}$$ Usa --- para crear una linea horizontal completa y c
 $${\color{lightgreen}•}$$ **<ins>Tablas</ins>**
 
 $${\color{lightgreen}•}$$ Se usa | para marcar las columnas y entre ellas se pone el texto que queremos que aparezca
+
+````
+|Plugin|README|
+|------|------|
+|Dropbox|dropbox.txt|
+|Github|github.txt|
+````
+|Plugin|README|
+|------|------|
+|Dropbox|dropbox.txt|
+|Github|github.txt|
+
